@@ -1,0 +1,19 @@
+{
+  "name": "playground-js-dev-env",
+  "version": "0.0.1",
+  "description": "Javascript development enviroment for experimentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-ssj/playground-js-dev-env.git"
+  },
+  "author": "Rodrigo Alves (@rodrigo-ssj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigo-ssj/playground-js-dev-env/issues"
+  },
+  "homepage": "https://github.com/rodrigo-ssj/playground-js-dev-env#readme"
+}
