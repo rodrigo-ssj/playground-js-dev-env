@@ -1,5 +1,6 @@
 import path from 'path';
 import open from 'open';
+import chalk from 'chalk';
 import express from 'express';
 
 const port = 3000
@@ -15,5 +16,9 @@ app.listen(port, err => {
   if (err)
     return console.err(err)
 
-  open(`http://localhost:${port}`)
+  const serverUrl = `http://localhost:${port}`
+
+  console.log(chalk.blue(`Development server running at ${serverUrl}`))
+
+  open(serverUrl)
 })
